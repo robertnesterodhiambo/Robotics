@@ -1,0 +1,38 @@
+[1.479s] Invoking command in '/home/oem/repos/Robotics/src/build/my_robot_controller': PYTHONPATH=/home/oem/repos/Robotics/src/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oem/repos/Robotics/src/build/my_robot_controller/build --no-deps symlink_data
+[2.120s] running develop
+[2.121s] /home/oem/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.121s] !!
+[2.121s] 
+[2.121s]         ********************************************************************************
+[2.121s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.121s]         Instead, use pypa/build, pypa/installer or other
+[2.121s]         standards-based tools.
+[2.122s] 
+[2.122s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.122s]         ********************************************************************************
+[2.122s] 
+[2.122s] !!
+[2.122s]   easy_install.initialize_options(self)
+[2.818s] running egg_info
+[2.818s] creating my_robot_controller.egg-info
+[2.883s] writing my_robot_controller.egg-info/PKG-INFO
+[2.884s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.884s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.884s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.884s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.885s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.984s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.985s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.029s] running build_ext
+[3.029s] Creating /home/oem/repos/Robotics/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[3.030s] Installing draw_circle script to /home/oem/repos/Robotics/src/install/my_robot_controller/lib/my_robot_controller
+[3.030s] Installing test_node script to /home/oem/repos/Robotics/src/install/my_robot_controller/lib/my_robot_controller
+[3.031s] 
+[3.031s] Installed /home/oem/repos/Robotics/src/build/my_robot_controller
+[3.031s] running symlink_data
+[3.031s] creating /home/oem/repos/Robotics/src/install/my_robot_controller/share/ament_index
+[3.031s] creating /home/oem/repos/Robotics/src/install/my_robot_controller/share/ament_index/resource_index
+[3.032s] creating /home/oem/repos/Robotics/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[3.032s] symbolically linking /home/oem/repos/Robotics/src/build/my_robot_controller/resource/my_robot_controller -> /home/oem/repos/Robotics/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[3.032s] symbolically linking /home/oem/repos/Robotics/src/build/my_robot_controller/package.xml -> /home/oem/repos/Robotics/src/install/my_robot_controller/share/my_robot_controller
+[3.105s] Invoked command in '/home/oem/repos/Robotics/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/oem/repos/Robotics/src/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/oem/repos/Robotics/src/build/my_robot_controller/build --no-deps symlink_data

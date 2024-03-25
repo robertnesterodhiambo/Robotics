@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000840] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099606] (-) TimerEvent: {}
+[0.199969] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400704] (-) TimerEvent: {}
+[0.501111] (-) TimerEvent: {}
+[0.601416] (-) TimerEvent: {}
+[0.701727] (-) TimerEvent: {}
+[0.802044] (-) TimerEvent: {}
+[0.902358] (-) TimerEvent: {}
+[1.002673] (-) TimerEvent: {}
+[1.102966] (-) TimerEvent: {}
+[1.203254] (-) TimerEvent: {}
+[1.303604] (-) TimerEvent: {}
+[1.350336] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/oem/repos/Robotics/src/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/oem/repos/Robotics/src/build/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'oem', 'LC_TIME': 'sw_KE', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/oem', 'OLDPWD': '/home/oem/repos/Robotics', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sw_KE', 'SYSTEMD_EXEC_PID': '1764', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/29999/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/oem/repos/Robotics/install:/home/oem/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'oem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'oem', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/opt/ros/iron/bin:/home/oem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/oem-Lenovo-Z50-70:@/tmp/.ICE-unix/1549,unix/oem-Lenovo-Z50-70:/tmp/.ICE-unix/1549', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sw_KE', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/81766b15_2777_4e3c_b393_692e1d72d96b', 'XDG_RUNTIME_DIR': '/run/user/29999', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sw_KE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/29999/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.509', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/29999/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/oem/repos/Robotics/install/my_robot_controller:/opt/ros/humble:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sw_KE', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sw_KE', 'GPG_AGENT_INFO': '/run/user/29999/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'sw_KE', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/oem/repos/Robotics/src/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/oem/repos/Robotics/src/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/src/install/my_robot_controller/lib/python3.10/site-packages:/home/oem/repos/Robotics/build/my_robot_controller:/home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages', 'ROS_HOSTNAME': 'localhost', 'LC_NUMERIC': 'sw_KE', 'LC_PAPER': 'sw_KE', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.403925] (-) TimerEvent: {}
+[1.504282] (-) TimerEvent: {}
+[1.604629] (-) TimerEvent: {}
+[1.704980] (-) TimerEvent: {}
+[1.805290] (-) TimerEvent: {}
+[1.863678] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[1.864040] (my_robot_controller) StderrLine: {'line': b'/home/oem/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.864186] (my_robot_controller) StderrLine: {'line': b'!!\n'}
+[1.864285] (my_robot_controller) StderrLine: {'line': b'\n'}
+[1.864372] (my_robot_controller) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.864459] (my_robot_controller) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.864542] (my_robot_controller) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.864624] (my_robot_controller) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.864704] (my_robot_controller) StderrLine: {'line': b'\n'}
+[1.864783] (my_robot_controller) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.864863] (my_robot_controller) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.864961] (my_robot_controller) StderrLine: {'line': b'\n'}
+[1.865051] (my_robot_controller) StderrLine: {'line': b'!!\n'}
+[1.865131] (my_robot_controller) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.905397] (-) TimerEvent: {}
+[2.005677] (-) TimerEvent: {}
+[2.106009] (-) TimerEvent: {}
+[2.206326] (-) TimerEvent: {}
+[2.261310] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.300759] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[2.301500] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.301925] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[2.302249] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[2.302465] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[2.306394] (-) TimerEvent: {}
+[2.363986] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.365296] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.396062] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[2.396342] (my_robot_controller) StdoutLine: {'line': b'Creating /home/oem/repos/Robotics/src/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[2.397191] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/oem/repos/Robotics/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.397514] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/oem/repos/Robotics/src/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.397924] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[2.398083] (my_robot_controller) StdoutLine: {'line': b'Installed /home/oem/repos/Robotics/src/build/my_robot_controller\n'}
+[2.398184] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[2.406535] (-) TimerEvent: {}
+[2.455392] (my_robot_controller) CommandEnded: {'returncode': 0}
+[2.468422] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[2.469361] (-) EventReactorShutdown: {}

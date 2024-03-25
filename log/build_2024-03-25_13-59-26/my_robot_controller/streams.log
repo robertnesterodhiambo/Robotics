@@ -1,0 +1,50 @@
+[1.245s] Invoking command in '/home/oem/repos/Robotics/build/my_robot_controller': PYTHONPATH=/home/oem/repos/Robotics/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/oem/repos/Robotics/build/my_robot_controller/build
+[1.733s] running develop
+[1.733s] /home/oem/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.733s] !!
+[1.733s] 
+[1.733s]         ********************************************************************************
+[1.734s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.734s]         Instead, use pypa/build, pypa/installer or other
+[1.734s]         standards-based tools.
+[1.734s] 
+[1.734s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.734s]         ********************************************************************************
+[1.734s] 
+[1.735s] !!
+[1.735s]   easy_install.initialize_options(self)
+[2.148s] Removing /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[2.195s] Invoked command in '/home/oem/repos/Robotics/build/my_robot_controller' returned '0': PYTHONPATH=/home/oem/repos/Robotics/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/oem/repos/Robotics/build/my_robot_controller/build
+[2.197s] Invoking command in '/home/oem/repos/Robotics/src/my_robot_controller': PYTHONPATH=/home/oem/repos/Robotics/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/oem/repos/Robotics/build/my_robot_controller/build install --record /home/oem/repos/Robotics/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[2.565s] running egg_info
+[2.592s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.593s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.593s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.594s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.594s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[2.651s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.703s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.703s] running build
+[2.704s] running build_py
+[2.704s] copying my_robot_controller/draw_circle.py -> /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller
+[2.704s] copying my_robot_controller/my_first_node.py -> /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller
+[2.704s] copying my_robot_controller/__init__.py -> /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller
+[2.705s] running install
+[2.711s] running install_lib
+[2.740s] creating /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.741s] copying /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.741s] copying /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.741s] copying /home/oem/repos/Robotics/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.742s] byte-compiling /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[2.742s] byte-compiling /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[2.743s] byte-compiling /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[2.743s] running install_data
+[2.743s] copying resource/my_robot_controller -> /home/oem/repos/Robotics/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.743s] copying package.xml -> /home/oem/repos/Robotics/install/my_robot_controller/share/my_robot_controller
+[2.744s] running install_egg_info
+[2.774s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[2.776s] running install_scripts
+[3.023s] Installing draw_circle script to /home/oem/repos/Robotics/install/my_robot_controller/lib/my_robot_controller
+[3.023s] Installing test_node script to /home/oem/repos/Robotics/install/my_robot_controller/lib/my_robot_controller
+[3.024s] writing list of installed files to '/home/oem/repos/Robotics/build/my_robot_controller/install.log'
+[3.064s] Invoked command in '/home/oem/repos/Robotics/src/my_robot_controller' returned '0': PYTHONPATH=/home/oem/repos/Robotics/build/my_robot_controller/prefix_override:/home/oem/repos/Robotics/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/oem/repos/Robotics/build/my_robot_controller/build install --record /home/oem/repos/Robotics/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
